@@ -1,0 +1,94 @@
+html {
+    background-color: rgb(206, 219, 226);
+}
+
+body {
+    background-color: azure;
+    padding-bottom: 3%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+p, h2, h3, h4 {
+    font-family: Roboto, sans-serif;
+}
+
+.text-center {
+    text-align: center;
+    padding-top: 2%;
+}
+
+#headshot {
+    max-width: 50%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.body.navbar {
+    background-color: rgb(42, 42, 48);
+}
+
+.navbar-brand, .nav-link {
+    font-family: Roboto, sans-serif;
+    color: rgb(88, 85, 154)
+}
+
+.col-4.thumbnail.img {
+  /*margin-top: 100px;**/
+  max-width: 100%; 
+  height: auto; 
+  display: block;
+  text-align: center;
+}
+
+.classes {
+    text-align: left;
+}
+
+.projects {
+    text-align: left;
+}
+
+.sem-label {
+    font-weight: bold;
+}
+
+.img-button, .season-button {
+    border-radius: 25%;
+    font-family: Roboto, sans-serif;
+    background-color: rgb(85, 56, 112);
+    color:white
+}
+
+.season-img {
+    max-width: 10%;
+    height: 15%;
+    object-fit: contain;
+}
+
+.season-text {
+    font-family: Roboto, sans-serif;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    width:25%;
+    overflow: auto;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.col-4 {
+    padding-bottom: 3%;
+}

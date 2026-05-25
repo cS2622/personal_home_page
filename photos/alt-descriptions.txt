@@ -1,0 +1,16 @@
+Winter-1
+	A pinecone sitting in a snowbank.
+Winter-2
+	A ski rack sitting in front of a snowy mountain.
+Spring-1
+	Yellow roses with other flowers in the background.
+Spring-2
+	White cherry blossoms on a tree branch in front of a blue sky.
+Summer-1
+	A white sand beach with a teal-colored ocean behind.
+Summer-2
+	A pale yellow sunset behind some palm trees.
+Fall-1
+	A tree with red and orange leaves sitting next to a small city street in the rain.
+Fall-2
+	A small lake with trees with red and orange leaves around it.

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="author" content="Claire Stanton" />
+    <meta
+      name="description"
+      content="This is a simple portfolio webpage for a 4th year college student studying computer science. This website includes information about their classes and technical projects in addition to some of their hobbies and how to contact them."
+    />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg sticky-top justify-content-center bg-body-tertiary"
+    >
+      <div class="container-md">
+        <span class="navbar-brand mb-0 h1">Claire Stanton</span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="about.html">About Me</a>
+            <a class="nav-link" href="academic.html">Academics</a>
+            <a class="nav-link" href="contact.html">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <h1>Home</h1>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-4">
+          <img src="photos/headshot.jpeg" alt="A picture of Claire Stanton's face." class="img-fluid" id="headshot"/>
+        </div>
+        <div class="col-8">
+          <h2>Hello!</h2>
+          <h3>My name is Claire Stanton.</h3>
+          <p>
+            Welcome to my personal website! Please explore to find out more
+            about me and what I have done.
+          </p>
+        </div>
+        
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <a class="thumbnail" href="about.html">
+            <img
+              src="photos/about_thumbnail.png"
+              class="img-fluid"
+              alt="An image of green tree branches and blue sky with text overlaid that says, Click here to learn more about me as a person."
+            />
+          </a>
+        </div>
+        <div class="col-4">
+          <a class="thumbnail" href="academic.html">
+            <img
+              src="photos/academic_thumbnail.png"
+              class="img-fluid"
+              alt="An image of autumn trees and grey sky with text overlaid that says, Click here to learn more about my projects and classes."
+            />
+          </a>
+        </div>
+        <div class="col-4">
+          <a class="thumbnail" href="contact.html">
+            <img
+              src="photos/contact_thumbnail.png"
+              class="img-fluid"
+              alt="An image of snow-covered trees with text overlaid that says, Click here to learn how to contact me."
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
