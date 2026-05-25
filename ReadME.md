@@ -12,7 +12,7 @@ As my creative addition using Vanilla JS I designed logic to go with two HTML bu
 
 ## Technical Requirements
 
-
+In order to run this, you should be able to use HTML, CSS, JS, and have npm and reload installed (if trying to run local http server).
 
 ## Installation/Use
 
@@ -26,6 +26,8 @@ reload -b # creates and runs an http server using the current codebase
 Here is the link to the course: https://johnguerra.co/classes/webDevelopment_online_summer_2026/
 
 ## Video Demo
+
+https://youtu.be/7HKjFwLbsiU 
 
 ## AI Use
 
