@@ -25,6 +25,10 @@ reload -b # creates and runs an http server using the current codebase
 
 Here is the link to the course: https://johnguerra.co/classes/webDevelopment_online_summer_2026/
 
+## Google Slides
+
+https://docs.google.com/presentation/d/1b67aP0-fLK4nuAOln4O48MICghPm--JySokLAH5qXK0/edit?usp=sharing 
+
 ## Video Demo
 
 https://youtu.be/7HKjFwLbsiU 
