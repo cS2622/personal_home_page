@@ -30,7 +30,6 @@ function changeImage() {
     }
     img.src = images[currentSeason][imgCounter].src;
     img.alt = images[currentSeason][imgCounter].alt;
-    console.log("called changeImage")
 }
 
 function changeImageSeason() {
@@ -49,12 +48,10 @@ function changeImageSeason() {
             currentSeason++;
             text.textContent = "Season: Fall";
             break;
-        case 3:
+        default:
             currentSeason = 0;
             text.textContent = "Season: Winter";
             break;
-        default:
-            console.log("Error with switching seasons");
     }
     img.src = images[currentSeason][0].src;
     img.alt = images[currentSeason][0].alt;
